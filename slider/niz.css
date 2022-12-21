@@ -1,0 +1,42 @@
+.niz {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 10pxpx;
+  padding: 7px;
+  background-color: rgb(255, 255, 255);
+  /* border-radius: 5px; */
+  border-bottom: 1px solid #dabcab;
+}
+.sil {
+  content: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.b {
+  margin-left: 20px;
+}
+.header__logo-img {
+  width: 30px;
+  height: 30px;
+}
+.f1 {
+  width: 30px;
+  height: 30px;
+}
+.f2 {
+  width: 30px;
+  height: 30px;
+}
+.foto3 {
+  margin-right: 20px;
+}
