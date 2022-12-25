@@ -1,134 +1,208 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Цмит</title>
-    <link rel="stylesheet" href="./slider/header.css" />
-    <link rel="stylesheet" href="./slider/body.css" />
-    <link rel="stylesheet" href="./slider/slider.css" />
-    
-    <link rel="stylesheet" href="./slider/niz.css" />
-    <link rel="stylesheet" href="./slider/nachalo.css" />
+    <link rel="stylesheet" href="./css/body.css" media="screen" />
+    <link rel="stylesheet" href="./css/footer.css" media="screen" />
+    <link rel="stylesheet" href="./css/main.css" media="screen" />
+    <link rel="stylesheet" href="./css/nachalo.css" media="screen" />
+    <link rel="stylesheet" href="./css/slider.css" media="screen" />
+    <link rel="stylesheet" href="./css/header.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <title>ЦМИТ</title>
   </head>
 
   <body>
-      <div class="text11"><h2>Центр молодежного инновационного творчества</h2></div>
-    <div class="header">
-        <div class="header__logo-wrapper">
-            <img src="./imges/logo.png" alt="logo" class="header__logo-img">
-            <a href="./index.html" class="header__ssilka"></a>
-            </img>
-            МИТ
-          </div>
-         <div>
-          <ul class="ssik">
-            <li class="a">
-              <a href="./index.html" class="l">Главная страница</a>
-            </li>
-            <li class="a">
-                <a href="./onas.html" class="l">О нас</a>
-              </li>
-            <li class="a">
-                <a href="./svias.html" class="l">Связь с нами</a>
-              </li>
-           
-              <li class="a">
-                <a href="./gdemi.html" class="l">Где мы</a>
-              </li>
-              <a href="./vxod.html" class="foto1">
-                <img src="./imges/vxod.png" alt="logo" class="f3">
-              </a> 
-            <a href="./registrision.html" class="foto2">
-                <img src="./imges/klych.png" alt="logo" class="f4">
-              </a> 
-          </ul> 
-        </div>
-            
-    </div>
+    <div class="color">
+      <div class="text1 align-content-center"><h2>Центр молодежного инновационного творчества</h2></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">           
+            <a href="./index.html" class="navbar-brand"><img src="./imges/logo.png" alt="logo" class=""></img></a>
+
+            <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+       
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"
+              >Главная страница <span class="sr-only"></span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./onas.html"
+              >О нас <span class="sr-only"></span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gdemi.html"
+              >Где мы<span class="sr-only"></span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./svias.html"
+              >Связь с нами <span class="sr-only"></span></a
+            >
+          </li>
+        </ul>
+        <a href="./vxod.html" class="navbar-brand1">
+          <img src="./imges/vxod.png" alt="logo" class="">
+        </a> 
+      <a href="./registrision.html" class="navbar-brand2">
+          <img src="./imges/klych.png" alt="logo" class="">
+        </a> 
+      </div>
+    </nav>
 
 
 
 
-
-
-    <div class="slider">
-          
-       <div class="box1">
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        
         <!-- Центр молодежного инновационного творчества (ЦМИТ) – расположен на площадке "Мой бизнес" в городе Выборге Ленинградской области. Его основные задачи - развитие производственных навыков у подростков и молодежи, сопровождение наиболее способных учеников и ярких проектов в части грантовой поддержки, вовлечение в инновационную производственную деятельность молодежи. -->
-      <div class="content1">
-          <a href="">
-        <div class="container_slider_css">
-            <img class="photo_slider_css" src="./imges/25zya99x1hY.jpg" alt="">
-            <img class="photo_slider_css" src="./imges/ISoMNTr2aGE.jpg" alt="">
-            <img class="photo_slider_css" src="./imges/peqMePEVirs.jpg" alt="">
-            <img class="photo_slider_css" src="./imges/Tip.png" alt="">
+        <div class="content1 col-xs-12 col-sm-6 col-md-4">
+          <div class="carousel slide" data-ride="carousel" id="slides">
+            <ul class="carousel-indicators">
+              <li data-target="#slides" data-slide-to="0" class="active"></li>
+              <li data-target="#slides" data-slide-to="1"></li>
+              <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imges/oleeen.jpg" alt="img" />
+                
+              </div>
+              <div class="carousel-item">
+                <img src="./imges/med.jpg" alt="img" />
+              </div>
+              <div class="carousel-item">
+                <img src="./imges/medvedi.jpg" alt="img" />
+              </div>
+            </div>
           </div>
-        </a>
+            <p class="text ">
+               Мастер классы! 
+               <br>
+                Робототехника 
+                <br>
+                Новогодние поделки 
+                <br>
+                Вырезание из дерева 
+                <br>
+                И многое другое!
+              
+            </p>
+        </div>
+      
+      <div class="content1 col-xs-12 col-sm-6 col-md-4">
+        <div class="carousel slide" data-ride="carousel" id="slides1">
+          <ul class="carousel-indicators">
+            <li data-target="#slides1" data-slide-to="0" class="active"></li>
+            <li data-target="#slides1" data-slide-to="1"></li>
+            <li data-target="#slides1" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imges/idei.jpg" alt="img" />
+              
+            </div>
+            <div class="carousel-item">
+              <img src="./imges/komanda.jpg" alt="img" />
+            </div>
+            <div class="carousel-item">
+              <img src="./imges/idei3.jpg" alt="img" />
+            </div>
+          </div>
+        </div>
           <p class="text ">
-             Мастер классы! 
-             <br>
-              Робототехника 
-              <br>
-              Новогодние поделки 
-              <br>
-              Вырезание из дерева 
-              <br>
-              И многое другое!
-            
+            Воплоти свои идеи в реальность! - мы поможем!
           </p>
       </div>
-      
-      <div class="content1">
-        <a href="">
-            <div class="container_slider_css">
-                <img class="photo_slider_css" src="./imges/idei.jpg" alt="">
-                <img class="photo_slider_css" src="./imges/Tip.png" alt="">
-                <img class="photo_slider_css" src="./imges/idei2.jpg" alt="">
-                <img class="photo_slider_css" src="./imges/idei3.jpg" alt="">
-              </div>
-            </a>
-        <p class="text">
-            Воплоти свои идеи в реальность! - мы поможем!
-        </p>
-      </div>
-      <div class="content1">
-           <a href="./registrision.html">
-            <div class="container_slider_css">
-                <img class="photo_slider_css" src="./imges/like.jpg" alt="">
-                <img class="photo_slider_css" src="./imges/idei2.jpg" alt="">
-                <img class="photo_slider_css" src="./imges/idei3.jpg" alt="">
-                <img class="photo_slider_css" src="./imges/idei.jpg" alt="">
-              </div>
-            </a>
-        <p class="text">
+
+      <div class="content1 col-xs-12 col-sm-6 col-md-4">
+        <div class="carousel slide" data-ride="carousel" id="slides2">
+          <ul class="carousel-indicators">
+            <li data-target="#slides2" data-slide-to="0" class="active"></li>
+            <li data-target="#slides2" data-slide-to="1"></li>
+            <li data-target="#slides2" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imges/motiv1.jpg" alt="img" />
+              
+            </div>
+            <div class="carousel-item">
+              <img src="./imges/motiv2.jpg" alt="img" />
+            </div>
+            <div class="carousel-item">
+              <img src="./imges/motiv3.jpg" alt="img" />
+            </div>
+          </div>
+        </div>
+          <p class="text ">
             Пиши и присоединяйся к нам!
             Ведь с нами возможно всё!
-        </p>
+          </p>
       </div>
     </div>
-</div>
-
-
-<div class="info">
-    <div class="header">
-        <div class="header__logo-wrapper">
-            <img src="./imges/logo.png" alt="logo" class="header__logo-img">
-            <a href="./index.html" class="header__ssilka"></a>
-            </img>
-          </div>
-         
-          
-        <div class="sil">
-            <a href=" https://vk.com/cmitvbg" class="foto3">
-              <img src="./imges/vk.png" alt="logo" class="f1">
-            </a> 
-            <a href="https://www.instagram.com/cmitvbg/" class="foto3">
-                <img src="./imges/inst.png" alt="logo" class="f2">
-              </a> 
-            </div>
-    </div>
   </div>
+
+  
+
+  <script src="./js/script.js"></script>
+  <footer class="footer">
+    
+        <nav class="navbar navbar-expand-lg bg-light ">
+          <div class="icon">
+            <a class="navbar-brand1" href="./index.html">
+              <img src="./imges/logo.png" alt="vk" />
+            </a>
+          </div>
+            <div class="numbers">
+              
+            <form class="d-flex" role="search">
+              <div class="socials_seti">
+                <a class="navbar-brand" href=" https://www.instagram.com/cmitvbg/">
+                  <img src="./imges/inst.png" alt="" />
+                </a>
+              </div>
+              <div class="socials_seti"></div>
+                <a class="navbar-brand" href="https://vk.com/cmitvbg">
+                  <img src="./imges/vk.png" alt="" />
+                </a>
+              </div>
+            </div>
+            </form>
+            </div>
+          
+        </nav>  
+  </footer>
+
+ 
+
+
+  <div>
+
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
