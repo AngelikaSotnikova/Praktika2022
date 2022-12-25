@@ -1,0 +1,44 @@
+.box4 {
+  /* display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  justify-content: center; */
+
+  background-color: #ffffff;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 4px;
+  padding: 8px;
+}
+.k {
+  color: darkslategray;
+  font-family: cursive;
+  padding: 15px;
+}
+.information {
+  background-color: #ffffff;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 2px;
+  border-radius: 4px;
+  padding: 2px;
+}
+.content3 {
+  display: flex;
+  justify-content: space-between;
+  /* padding-right: 40%;
+  padding-left: 40%; */
+  align-items: center;
+  justify-content: center;
+  max-width: 5000px;
+
+  font-size: 1.1em !important;
+  font-family: cursive;
+}
+.k1 {
+  color: darkslategray;
+  font-family: cursive;
+  padding: 2px;
+  text-align: center;
+}

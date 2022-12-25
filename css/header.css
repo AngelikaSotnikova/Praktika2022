@@ -1,0 +1,37 @@
+.navbar-brand img {
+  width: 40px;
+}
+.navbar-nav li {
+  padding-left: 10px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+  font-family: cursive;
+}
+.navbar-brand1 img {
+  width: 25px;
+}
+.navbar-brand2 img {
+  width: 25px;
+  height: 30px;
+  padding-left: 10px;
+}
+.carousel-item img {
+  margin: 0px auto;
+  max-width: 300px;
+  max-height: 400px;
+}
+.navbar-nav {
+  margin-left: 250px;
+}
+.navbar {
+  font-family: cursive;
+  border: 1px solid #32448d;
+  margin-bottom: 10px;
+}
+.navbar:hover {
+  position: relative;
+  opacity: 1;
+  transform: scale(1.02);
+  box-shadow: 8px 8px 9px 2px rgb(232, 232, 232);
+}
